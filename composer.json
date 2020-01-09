@@ -1,0 +1,54 @@
+{
+  "name": "Lambelcebur/oauth2-social-client",
+  "description": "Lam extends module from thephpleague/oauth2-client",
+  "keywords": [
+    "phpleague",
+    "Lam",
+    "oAuth2",
+    "Service",
+    "Zend",
+    "Provider",
+    "View Helper",
+    "View",
+    "Controller Plugin",
+    "Plugin",
+    "Social",
+    "Facebook",
+    "Google",
+    "Microsoft",
+    "Linkedin"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.1",
+    "league/oauth2-client": "2.*"
+  },
+  "suggest": {
+    "Lambelcebur/doctrine-orm-fast-api": "Quickly create an automatic API CRUD with your Doctrine ORM connection",
+    "Lambelcebur/doctrine-orm-resources": "DoctrineORM Resources to Lam",
+    "Lambelcebur/materialize-css-helper": "MaterializeCss Helper integration to Lam",
+    "Lambelcebur/mongodb-logger": "MongoDb Logger integration to Lam",
+    "Lambelcebur/mvc-basic-tools": "Lam tools for controllers,views,helpers, plugins and more ...",
+    "laminas/laminas-mvc-plugin-flashmessenger": "Recommended to display provider response messages",
+    "league/oauth2-facebook": "facebook provider",
+    "league/oauth2-github": "github provider",
+    "league/oauth2-google": "google provider",
+    "league/oauth2-instagram": "instagram provider",
+    "stevenmaguire/oauth2-microsoft": "microsoft provider",
+    "league/oauth2-linkedin": "linkedin provider"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "David Garcia",
+      "email": "garcia.gordo.david@gmail.com",
+      "homepage": "https://github.com/Belcebur"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "LamBelcebur\\OAuth2SocialClient\\": "src/"
+    }
+  }
+}
