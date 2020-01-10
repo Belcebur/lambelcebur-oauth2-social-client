@@ -1,8 +1,8 @@
-# Lambelcebur-oauth2-social-client
+# lambelcebur-oauth2-social-client
 Lam extends module from thephpleague/oauth2-client
 
 ## See
-- [https://packagist.org/explore/?query=Lambelcebur](https://packagist.org/explore/?query=Lambelcebur)
+- [https://packagist.org/explore/?query=lambelcebur](https://packagist.org/explore/?query=lambelcebur)
 - [https://oauth2-client.thephpleague.com/](https://oauth2-client.thephpleague.com/)
 - [https://oauth2-client.thephpleague.com/providers/league/](https://oauth2-client.thephpleague.com/providers/league/)
 - [https://oauth2-client.thephpleague.com/providers/thirdparty/](https://oauth2-client.thephpleague.com/providers/thirdparty/)
@@ -13,10 +13,10 @@ Installation of this module uses composer. For composer documentation, please re
 [getcomposer.org](http://getcomposer.org/).
 
 ```sh
-composer require Lambelcebur/oauth2-social-client
+composer require lambelcebur/oauth2-social-client
 ```
 
-Then add `LamBelcebur\OAuth2SocialClient` to your `config/application.config.php` and copy `config/Lambelcebur-oauth2-social.global.php.dist` to your autoload config folder and configure it with your providers.
+Then add `LamBelcebur\OAuth2SocialClient` to your `config/application.config.php` and copy `config/lambelcebur-oauth2-social.global.php.dist` to your autoload config folder and configure it with your providers.
 
 
 
@@ -114,7 +114,7 @@ $oAuth2Social->getOAuth2SocialService();
 ```
 ## Config File
 
-###`config/Lambelcebur-oauth2-social.global.php.dist`
+###`config/lambelcebur-oauth2-social.global.php.dist`
 ```php
 <?php
 [
